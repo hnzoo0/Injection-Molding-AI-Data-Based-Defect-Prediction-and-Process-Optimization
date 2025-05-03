@@ -1,5 +1,5 @@
 ## 데이터셋 다운로드
-https://www.kamp-ai.kr/aidataDetail?AI_SEARCH=%EC%82%AC%EC%B6%9C&page=1&DATASET_SEQ=4&EQUIP_SEL=&GUBUN_SEL=&FILE_TYPE_SEL=&WDATE_SEL=
+[다운로드](https://www.kamp-ai.kr/aidataDetail?AI_SEARCH=%EC%82%AC%EC%B6%9C&page=1&DATASET_SEQ=4&EQUIP_SEL=&GUBUN_SEL=&FILE_TYPE_SEL=&WDATE_SEL=)
 
 
 
@@ -64,3 +64,60 @@ https://www.kamp-ai.kr/aidataDetail?AI_SEARCH=%EC%82%AC%EC%B6%9C&page=1&DATASET_
     - 육안 검수 의존에서 벗어나 데이터 기반 품질 관리 가능.  
     - 불량 발생 원인 파악 시간 단축 → 생산성 향상.  
     - 불량률 감소로 제조 비용 절감 및 납기 안정성 확보.
+ 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+## Dataset Download
+[download](https://www.kamp-ai.kr/aidataDetail?AI_SEARCH=%EC%82%AC%EC%B6%9C&page=1&DATASET_SEQ=4&EQUIP_SEL=&GUBUN_SEL=&FILE_TYPE_SEL=&WDATE_SEL=)
+
+## 📌 Project Topic
+[Overview] 📝
+
+Development of a machine learning-based defect prediction model by analyzing the causes of various defect types (short shot, flash, sink mark, etc.) occurring in the injection molding process using data.
+Aiming to optimize production conditions and improve quality based on data.
+
+## [Background] 🔍
+
+Currently, defect screening in manufacturing sites largely relies on manual visual inspection by operators → leading to quality variation.
+It is difficult to identify the causes of defects, and it takes a long time to determine the root cause.
+Immediate response is limited as it is difficult to control the process at the point of defect occurrence.
+
+## [Topic] 🎯
+
+Identifying the correlation between process variables (temperature, pressure, time, speed, etc.) and the defect rate.
+Developing defect prediction models based on supervised learning and anomaly detection.
+Proposing data-driven production condition optimization.
+
+## [Explanation] 🧪
+
+After preprocessing the injection molding process data, the correlation between variables is analyzed, and defect occurrence is predicted using a machine learning model. The optimal model is selected by comparing various algorithms, and production conditions are optimized based on key variables. Analysis results are visualized through a dashboard to enhance applicability in the field.
+
+## [Data] 📊
+
+Data Source: KAIST provided "Injection Molding Machine AI Dataset"
+Data Format: CSV
+Key Data: labeled_data.csv (Includes PassOrFail values)
+Sensor data collected from the injection molding machine (Total of 25+ variables including temperature, pressure, time, speed, position, etc.)
+
+
+### 🧭 Project Goals
+Improve quality and reduce defect rate by predicting defects occurring in the injection molding process in advance.
+Propose optimal production conditions through analysis of the influence of key process variables.
+Establish a data-driven quality management system and provide a dashboard to shorten response time for field operators.
+
+## ❗ Problem Definition
+- Focus of Analysis and Visualization
+
+  - Analysis of the influence of each variable on defect occurrence (temperature, pressure, time, speed, etc.)
+  - Visualization of the causes of major defect types for each process step
+  - Comparison of defect occurrence patterns and normal patterns
+
+
+- Necessity and Importance of the Problem
+  - Enables data-driven quality management, moving away from reliance on visual inspection.
+  - Shortens the time required to identify the causes of defects → leading to productivity improvement.
+  - Reduces manufacturing costs and ensures delivery stability by decreasing the defect rate.
+
+
